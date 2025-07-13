@@ -53,8 +53,12 @@
     fetch(action, {
       method: 'POST',
       body: formData,
-      headers: {'X-Requested-With': 'XMLHttpRequest'}
+      headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+                'Accept': 'application/json'
+              }
     })
+    .then(response => response.json())
     .then(response => {
       if( response.ok ) {
         return response.text();
