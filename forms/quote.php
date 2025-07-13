@@ -38,5 +38,6 @@
   $contact->add_message( $_POST['phone'], 'Phone');
   $contact->add_message( $_POST['message'], 'Message', 10);
 
+  echo "Trato de enviar mensajes"
   echo $contact->send();
 ?>
