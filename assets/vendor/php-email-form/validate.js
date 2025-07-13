@@ -61,7 +61,7 @@
     .then(response => response.json())
     .then(response => {
       if( response.ok ) {
-        return response.text();
+        return 'Email enviado con exito.<br/>Pronto nos contactaremos contigo';
       } else {
         throw new Error(`${response.status} ${response.statusText} ${response.url}`); 
       }
