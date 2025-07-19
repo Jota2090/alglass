@@ -1,0 +1,16 @@
+.icon-alglass {
+  width: 5vw;
+  max-width: 48px;
+  aspect-ratio: 1;
+  background-color: #444;
+  mask-image: url('../../../img/iconos/aluminium_glass.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url('../../../img/iconos/aluminium_glass.svg'); /* Para Safari */
+  transition: background-color 0.3s ease;
+}
+
+.icon-alglass:hover {
+  background-color: #e63946;
+}
