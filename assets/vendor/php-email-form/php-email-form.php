@@ -63,7 +63,7 @@ class PHP_Email_Form {
     $this->options[$name] = $val;
   }
 
-  public function add_attachment($name, $max_size = 20, $allowed_exensions = ['jpeg','jpg','png','pdf','doc','docx'] ) {
+  public function add_attachment($name, $max_size = 20, $allowed_exensions = ['jpg','jpg','png','pdf','doc','docx'] ) {
     if( !empty($_FILES[$name]['name']) ) {
       $file_exension = strtolower(pathinfo($_FILES[$name]['name'], PATHINFO_EXTENSION));
       if( ! in_array($file_exension, $allowed_exensions) ) {
@@ -3473,7 +3473,7 @@ class PHPMailer
      * @param string $path        Path to the attachment
      * @param string $name        Overrides the attachment name
      * @param string $encoding    File encoding (see $Encoding)
-     * @param string $type        MIME type, e.g. `image/jpeg`; determined automatically from $path if not specified
+     * @param string $type        MIME type, e.g. `image/jpg`; determined automatically from $path if not specified
      * @param string $disposition Disposition to use
      *
      * @throws Exception
@@ -4101,7 +4101,7 @@ class PHPMailer
      *                            the content when using an embedded image in HTML
      * @param string $name        A filename for the attachment. If this contains an extension,
      *                            PHPMailer will attempt to set a MIME type for the attachment.
-     *                            For example 'file.jpg' would get an 'image/jpeg' MIME type.
+     *                            For example 'file.jpg' would get an 'image/jpg' MIME type.
      * @param string $encoding    File encoding (see $Encoding), defaults to 'base64'
      * @param string $type        MIME type - will be used in preference to any automatically derived type
      * @param string $disposition Disposition to use
@@ -4827,9 +4827,9 @@ class PHPMailer
             'mka' => 'audio/x-matroska',
             'bmp' => 'image/bmp',
             'gif' => 'image/gif',
-            'jpeg' => 'image/jpeg',
-            'jpe' => 'image/jpeg',
-            'jpg' => 'image/jpeg',
+            'jpg' => 'image/jpg',
+            'jpe' => 'image/jpg',
+            'jpg' => 'image/jpg',
             'png' => 'image/png',
             'tiff' => 'image/tiff',
             'tif' => 'image/tiff',
