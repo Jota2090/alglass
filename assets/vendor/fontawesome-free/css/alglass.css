@@ -34,13 +34,13 @@
 }
 
 .icon-mirror-led {
-  mask-image: url('../../../img/iconos/mirror-led.svg');
-  -webkit-mask-image: url('../../../img/iconos/mirror-led.svg'); /* Para Safari */
+  mask-image: url('../../../img/iconos/mirror_led.svg');
+  -webkit-mask-image: url('../../../img/iconos/mirror_led.svg'); /* Para Safari */
 }
 
 .icon-glass-panel {
   mask-image: url('../../../img/iconos/glass_panel.svg');
-  -webkit-mask-image: url('../../../img/iconos/glass_panel'); /* Para Safari */
+  -webkit-mask-image: url('../../../img/iconos/glass_panel.svg'); /* Para Safari */
 }
 
 .icon-commercial-tempered-glass {
