@@ -3,14 +3,57 @@
   max-width: 48px;
   aspect-ratio: 1;
   background-color: #444;
-  mask-image: url('../../../img/iconos/aluminium_glass.svg');
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
-  -webkit-mask-image: url('../../../img/iconos/aluminium_glass.svg'); /* Para Safari */
   transition: background-color 0.3s ease;
 }
 
 .icon-alglass:hover {
-  background-color: #e63946;
+  background-color: #0D0C2E;
+}
+
+.icon-sliding-shower {
+  mask-image: url('../../../img/iconos/sliding_door.svg');
+  -webkit-mask-image: url('../../../img/iconos/sliding_door.svg'); /* Para Safari */
+}
+
+.icon-hinge-shower {
+  mask-image: url('../../../img/iconos/shower_door.svg');
+  -webkit-mask-image: url('../../../img/iconos/shower_door.svg'); /* Para Safari */
+}
+
+.icon-organic-mirror {
+  mask-image: url('../../../img/iconos/organic_mirror.svg');
+  -webkit-mask-image: url('../../../img/iconos/organic_mirror.svg'); /* Para Safari */
+}
+
+.icon-mirror {
+  mask-image: url('../../../img/iconos/mirror.svg');
+  -webkit-mask-image: url('../../../img/iconos/mirror.svg'); /* Para Safari */
+}
+
+.icon-mirror-led {
+  mask-image: url('../../../img/iconos/mirror-led.svg');
+  -webkit-mask-image: url('../../../img/iconos/mirror-led.svg'); /* Para Safari */
+}
+
+.icon-glass-panel {
+  mask-image: url('../../../img/iconos/glass_panel.svg');
+  -webkit-mask-image: url('../../../img/iconos/glass_panel'); /* Para Safari */
+}
+
+.icon-commercial-tempered-glass {
+  mask-image: url('../../../img/iconos/commercial_tempered_glass.svg');
+  -webkit-mask-image: url('../../../img/iconos/commercial_tempered_glass.svg'); /* Para Safari */
+}
+
+.icon-commercial-mirror {
+  mask-image: url('../../../img/iconos/commercial_mirror.svg');
+  -webkit-mask-image: url('../../../img/iconos/commercial_mirror.svg'); /* Para Safari */
+}
+
+.icon-aluminium-glass {
+  mask-image: url('../../../img/iconos/aluminium_glass.svg');
+  -webkit-mask-image: url('../../../img/iconos/aluminium_glass.svg'); /* Para Safari */
 }
